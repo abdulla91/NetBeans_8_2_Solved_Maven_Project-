@@ -1,0 +1,9 @@
+First open file settings.xml this directory C:/Program Files/NetBeans 8.2/java/maven/conf
+Find line <mirrors></mirrors>
+Add below code in mirrors tag
+<mirror>
+      <id>mirror1</id>
+      <mirrorOf>central</mirrorOf>
+      <name>mirror1</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+</mirror>
